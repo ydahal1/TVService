@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>InfinityDTHServices</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>SampleController</servlet-name>
+    <servlet-class>com.controller.SampleController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SampleController</servlet-name>
+    <url-pattern>/SampleController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>OperatorController</servlet-name>
+    <servlet-class>com.controller.OperatorController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OperatorController</servlet-name>
+    <url-pattern>/OperatorController</url-pattern>
+  </servlet-mapping>
+</web-app>
+</element>

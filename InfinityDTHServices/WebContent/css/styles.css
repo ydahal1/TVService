@@ -1,0 +1,10 @@
+/*
+/	JavaScript validation on input fields of type text
+*/
+input.invalid, textarea.invalid {
+    border: 2px solid red;
+}
+
+input.valid, textarea.valid {
+    border: 2px solid blue;
+}
